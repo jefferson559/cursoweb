@@ -1,0 +1,36 @@
+/*.bg-green {
+  background-color: #0dad68;
+}
+
+.navbar-gray a {
+  color: rgb(98, 98, 98);
+}
+
+.main-image {
+  width: 250px;
+}
+
+.hero {
+  background-image: url('img/bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.color-white {
+  color: white;
+}
+
+.hero-info-container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+*/
+
+.col img{
+  max-width: 100px;
+}
+div {
+  border: 1px solid black;
+}
+ 
