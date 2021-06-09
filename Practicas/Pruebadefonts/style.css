@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;/*para que los borders y padings sean tomados completos incluyendolos a la suma */
+
+}
+
+body{
+    margin: 0px;
+    font-family:'Oswald','serif' ;
+}

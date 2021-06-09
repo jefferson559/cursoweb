@@ -1,0 +1,10 @@
+.head-img {
+    max-width: 100px;
+}
+.nav-item{
+    margin: 20px;
+}
+.container-nav{
+    max-width: 100%;
+    background-color: rgb(116, 149, 240);
+}
