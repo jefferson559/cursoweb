@@ -7,72 +7,86 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
   <title>Document</title>
 </head>
-
 <body>
- <header>
-  <div class="container">
-     <div class="row">
-       <div class="col">
-         <div class="d-flex flex-row justify-content-center">     
-            <img class="head-img" src="img/logo.png" alt="logo"> 
-            <h1>FarmaHelp</h1>
-          </div>        
-        </div>
-      <div class="col">
-        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center  ">
-          <div class="container-nav">
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsingNavbar3">
-                  <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-                  <ul class="navbar-nav w-100 justify-content-center">
-                      <li class="nav-item active">
-                           <a class="navbar-brand nav-link" href="#">
-                            <img src="img/icons8-kit-de-limpieza-dental-64.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                            Cuidado Personal   
-                           </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="navbar-brand nav-link" href="#">
-                          <img src="img/icons8-cepillo-cosmético-16.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                          Cosmeticos
-                         </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="navbar-brand nav-link" href="#">
-                          <img src="img/icons8-cepillo-cosmético-16.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                          Cosmeticos
-                         </a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="navbar-brand nav-link" href="#">
-                          <img src="img/icons8-polvo-24.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                          Dermo Cosmetica 
-                        </a> 
-                      </li>
-
-                      <li class="nav-item">
-                        <a class="navbar-brand nav-link" href="#">
-                          <img src="img/icons8-comida-natural-24.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                          Productos Naturales 
-                        </a>   
-                      </li>
-                  </ul>
-             
-              </div>
-          </div>
-      </nav>
-
-
-
-
-      </div>       
+ <header>    
+      
+    <nav class="navbar navbar-expand-lg navbar-light bg-grad flex-sm-nowrap flex-wrap">
+        <div class="container-fluid">
+            <button class="navbar-toggler flex-grow-sm-1 flex-grow-0 me-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbar5">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="#">
+              <img src="img/logo.png" alt=""  class="d-inline-block align-text-mid head-img">
+              FarmaHelp
+            </a>
+            <div class="navbar-collapse collapse flex-grow-1 justify-content-center" id="navbar5">
+                <ul class="navbar-nav mx-auto menu">
+                    <li class="nav-item  parent">
+                      <!-- <li class="nav-item current active parent"> -->
+                      <a class="navbar-brand nav-link" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-pill" width="30" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                          <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                          <path d="M4.5 12.5l8 -8a4.94 4.94 0 0 1 7 7l-8 8a4.94 4.94 0 0 1 -7 -7" />
+                          <line x1="8.5" y1="8.5" x2="15.5" y2="15.5" />
+                        </svg>
+                          Medicamento
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand nav-link" href="#">
+                        <img src="img/icons8-kit-de-limpieza-dental-64.png" alt="" width="30" height="24"
+                          class="d-inline-block align-text-top">
+                        Cuidado Personal
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand nav-link" href="#">
+                        <img src="img/icons8-cepillo-cosmético-16.png" alt="" width="30" height="24"
+                          class="d-inline-block align-text-top">
+                        Cosmeticos
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand nav-link" href="#">
+                        <img src="img/icons8-eco-limpieza-50.png" alt="" width="30" height="24"
+                          class="d-inline-block align-text-top">
+                          Limpieza
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand nav-link" href="#">
+                        <img src="img/icons8-polvo-24.png" alt="" width="30" height="24"
+                          class="d-inline-block align-text-top">
+                        Dermo Cosmetica
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="navbar-brand nav-link" href="#">
+                        <img src="img/icons8-comida-natural-24.png" alt="" width="30" height="24"
+                          class="d-inline-block align-text-top">
+                        Productos Naturales
+                      </a>
+                    </li>
+                </ul>
+            </div>      
+            <!-- <div class="flex-grow-1">
+              <a class="" href="#">
+                <img src="img/icons8-comida-natural-24.png" alt="" width="30" height="24"
+                  class="d-inline-block align-text-top">
+                  Envios 
+              </a>
+              <a class="" href="#">
+                <img src="img/icons8-comida-natural-24.png" alt="" width="30" height="24"
+                  class="d-inline-block align-text-top">
+                  Contactenos
+              </a>
+            </div>   -->
+    </nav>
+  
 </div>
  </header>
  <section  >
@@ -85,8 +99,11 @@
     
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous">
+</script>
+
 </body>
 
 </html>
-
- 
