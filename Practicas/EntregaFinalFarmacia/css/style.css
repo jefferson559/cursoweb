@@ -2,7 +2,8 @@
     max-width: 50px;
 }
  
- .font-nav{
+ a.nav-link font-nav{
+    font-weight: bold;
     font-family:'Anton', serif;;
  }
  .font-head{
@@ -15,16 +16,13 @@
 }
  .menu
  {
-    
-    clear:both;
-    float:left;
+    /* clear:both;
+    float:left; */
     margin-top:1px;
-    padding-bottom:1px;
-    
+    padding-bottom:1px; 
 }
  
 .menu li
- 
  {
     display: inline-block;
     border: 1px solid black;
@@ -49,17 +47,16 @@
     background-color: #009caaab;
      
 }
-.menu li a
+  /* .menu li a
  
  {
     color:#FFFFFF;
     font-size: 1em;
-    
     text-decoration: none;
     display: inline-block;
     padding: 0.7em 1em 0.7em 1em;
-}
-.menu li.active a
+}   */
+  .menu li.active a
  
  {
     color:#FFFFFF;
@@ -73,7 +70,7 @@
     border-radius: 10px;
     background-color:  #009caaab;
     
-}
+}  
 
 .navbar-brand{
     margin-right: 5px
