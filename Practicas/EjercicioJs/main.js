@@ -32,21 +32,22 @@
   ///*Destino mas populares///
 //let DestinosPopulares=["ecuador",]
 
-let posteo={id:0,titulo:'aa',autor:'aa',categoria:'aaaaa'}
-let posteo2={id:1,titulo:'aaaa',autor:'aaaa',categoria:'aaaaa'}
-let posteo3={id:2,titulo:'aaaaa',autor:'aaaaaa',categoria:'aaaaa'}
-let array=[posteo,posteo2,posteo3]
+// let posteo={id:0,titulo:'aa',autor:'aa',categoria:'aaaaa'}
+// let posteo2={id:1,titulo:'aaaa',autor:'aaaa',categoria:'aaaaa'}
+// let posteo3={id:2,titulo:'aaaaa',autor:'aaaaaa',categoria:'aaaaa'}
+// let array=[posteo,posteo2,posteo3]
 
-for(let p in posteo)
-{
-    console.log(p)
-}
-for(let p in posteo)
-{
-    console.log(posteo[p])
-}
+// for(let p in posteo)
+// {
+//     console.log(p)
+// }
+// for(let p in posteo)
+// {
+//     console.log(posteo[p])
+// }
 
- for(let a in array)
-{
-    console.log(a)
-} 
+//  for(let a in array)
+// {
+//     console.log(a)
+// } 
+
