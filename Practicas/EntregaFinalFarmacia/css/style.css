@@ -67,6 +67,25 @@
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.1);
    
 }
+.card-body h5::first-letter
+ 
+,.card-body p::first-letter
+{
+    text-transform: uppercase;
+}
+
+.card-body h5 
+ 
+,.card-body p 
+{
+    text-transform: lowercase;
+}
+.btn{
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+    background-color: #549E6D;
+}
   /* .menu li a
  
  {
@@ -121,6 +140,10 @@
     background: linear-gradient(90deg, rgba(156,170,255,1) 41%, rgba(182,254,199,1) 57%);
     padding: 5px;    
 }
+.separator2{
+    background: linear-gradient(90deg, rgba(156,170,255,1) 41%, rgba(182,254,199,1) 57%);
+    padding: 2px;    
+}
  /* Css Carousel */
   
  .carousel {
@@ -138,13 +161,18 @@
 }
 .logoEstrella{
     width: 50px;
-   
+    margin-top: 1.2%;
 }
 .logoEstrella img{
     max-width: 100%;
+    
 }
 /**/
   /*Css cards*/
 .tamanoImg{
     width: 170px;
+}
+
+div.tachado{
+text-decoration: line-through;
 }
