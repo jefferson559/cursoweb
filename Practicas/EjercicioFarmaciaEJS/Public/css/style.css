@@ -1,0 +1,72 @@
+/*Clases del nav*/
+li.nav-item.acti a span{
+    font-size: large;
+    text-transform: uppercase;
+}
+li.nav-item.acti  {
+    border-radius: 10px;
+    background-color: #009caaab;
+}
+
+.navbar-brand{
+    margin-right: 5px
+}
+.head-img {
+    max-width: 50px;
+}
+ h2.font{
+    font-family:'Roboto',sans-serif;
+}
+ 
+ .navbar-light .navbar-nav .nav-link {
+    font-weight: bold;
+    font-family:'Anton', serif;;
+    font-size: 15px;
+ }
+ .font-head{
+     font-weight: bold;
+     font-family:'Ubuntu', serif;;
+ }
+
+.bg-grad{   
+    background: linear-gradient(90deg, rgba(182,254,199,1) 42%, rgba(156,170,255,1) 63%);
+}
+/*clases de los botones del nav*/
+  .menu
+ {
+    /* clear:both;
+    float:left; */
+    margin-top:1px;
+    padding-bottom:1px; 
+} 
+  
+.menu li
+ {
+    display: inline-block;
+    border: 1px solid black;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-right: 30px;
+}
+.menu li a:hover
+ 
+ {
+    color:#FFFFFF;
+    text-transform: uppercase;
+    text-decoration: none;
+  
+}
+.menu li:hover
+ 
+ {
+     
+    border-radius: 10px;
+    background-color: #009caaab;
+     
+} 
+
+.nav-item:focus
+{
+    color: red;
+}

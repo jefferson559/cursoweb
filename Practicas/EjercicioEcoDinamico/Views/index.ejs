@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <%- include('./Partials/meta') %>
+</head>
+<body>
+    <%- include('./Partials/header') %>
+        <h1>
+            Pagina Ecommerce
+        </h1>
+            <% productJson.forEach(product=>{ %>
+             <h3> <%=
+                    product.title
+                     
+                  %> 
+             </h3>   
+           <% }) %>
+</body>
+</html>
